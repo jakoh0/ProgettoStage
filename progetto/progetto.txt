@@ -1,0 +1,10 @@
+Campi per registrazione:
+
+- Analisi del database (tabella utente, definire i campi, password va criptata)
+- nome, cognome, mail, data di nascita, indirizzo, città, numero di telefono, password, provincia, nazione.
+- Validazione dei campi (per esempio il campo password potrebbe avere almeno 10 caratteri, almeno una maiuscola, almeno un carattere speciale)
+- Grafica decente
+- Login (email, password)
+- Benvenuto (Ciao Nome)
+- Invio mail all'utente per la registrazione effettuata (Facoltativo)
+- Recupera password (inserisci la mail, il sistema invia una mail con un link, l'utente clicca il link e va in una schermata in cui può modificare la password)

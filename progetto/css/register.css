@@ -1,0 +1,151 @@
+body{
+	display:flex;
+	width:99%;
+	flex-direction:column;
+	height:100%;
+	background-color:#99c2ff;
+	align-items:center;
+	overflow-y:hidden;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	height:100%;
+	
+	
+}
+input{
+	margin-bottom:3%;
+	border: 1px gray;
+	border-radius:2px;
+	background-color:#cccccc;
+	opacity:85%;
+	height:30px;
+	padding-left:5px;
+	width:48%;
+}
+.campi{
+	margin-top:15%;
+	display:flex;
+	flex-direction:column;
+	background-color:#f2f2f2;
+	width:30%;
+	max-width:30%;
+	padding:20px;
+	border-radius:6px;
+	height:100%;
+}
+
+input:hover{
+	border:1px solid gray;
+	border-radius:4px;
+	margin-bottom: 3%;
+	height:28px;
+}
+
+#marginb{
+	margin-bottom: -3%;
+}
+.invio:hover{
+	border:1px solid gray;
+	border-radius:4px;
+	margin-bottom: 3%;
+	height:30px;
+	padding-left:-5px;
+}
+.home{
+
+	margin-top:10%;
+	width:20%;
+	position:absolute;
+	color:white;
+	border: 1px gray;
+	border-radius:10px;
+}
+#registrari{
+	width:100%;
+}
+#password{
+	text-align:center;
+	margin-top:-2%;
+	margin-bottom:2%;
+	color:#ff1a1a;
+}
+#nazione{
+	margin-top:-2%;
+	margin-bottom:2%;
+}
+#nazione>label{
+	margin-left:20%;
+
+}
+
+#nazione>label+label{
+	margin-left:37%;
+}
+#nazione2{
+	text-align:center;
+	margin-top:-2%;
+	margin-bottom:2%;
+	color:#ff1a1a;
+}
+select{
+	margin-bottom:3%;
+	border: 1px gray;
+	border-radius:2px;
+	background-color:#cccccc;
+	opacity:85%;
+	height:30px;
+	padding-left:5px;
+	width:49.4%;
+}
+option{
+	background-color:white;
+}
+#email{
+	margin-left:7%;
+	margin-top:-2%;
+	margin-bottom:2%;
+	color:#ff1a1a;
+}
+#email > label+label{
+	margin-left:27%;
+}
+#nome{
+	margin-top:-2%;
+	margin-bottom:2%;
+	color:#ff1a1a;
+}
+#nome>label{
+	margin-left:14%;
+	
+
+}
+#nome>label+label{
+	margin-left:29%;
+	margin-top:-2%;
+	margin-bottom:2%;
+	color:#ff1a1a;
+}
+#data{
+	text-align:center;
+
+
+}
+#numero{
+	margin-top:2%;
+	margin-bottom:2%;
+	color:#ff1a1a;
+	margin-left:12%;
+}
+#numero >label+label{
+	margin-left:55%;
+}
+#edata{
+	color:red;
+	margin-top:-2%;
+	margin-bottom:2%;
+	color:#ff1a1a;
+	text-align:center;
+}

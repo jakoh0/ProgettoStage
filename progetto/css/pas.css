@@ -1,0 +1,33 @@
+form{
+	display:flex;
+	flex-direction:column;
+
+	
+}
+input{
+	border:1px solid gray;
+	margin-bottom:1%;
+	height:30px;
+	border-radius:5px;
+	padding-left:5px;
+}
+
+input:hover{
+	border:2px solid gray;
+	height:29px;
+}
+body{
+	display:flex;
+	justify-content:center;
+	background-color:#E4E3D6;
+}
+div{
+	margin-top:15%;
+	width:20%;
+}
+input[type=submit]{
+	background-color:transparent;
+}
+input[type=submit]:hover{
+	background-color:#DEDFEC;
+}

@@ -1,0 +1,20 @@
+body{
+	display:flex;
+	flex-direction:column;
+}
+
+#risultato{
+	display:flex;
+	justify-content:center;
+}
+#centro{
+	display:flex;
+	flex-direction:row;
+}
+#risultato > form{
+	display:flex;
+	justify-content:center;
+}
+h1{
+	text-align:center;
+}

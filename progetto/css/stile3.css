@@ -1,0 +1,7 @@
+button:hover{
+	cursor:pointer;
+}
+form>button{
+	border:1px solid gray;
+	border-radius:4px;
+}

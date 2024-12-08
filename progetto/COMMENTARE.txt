@@ -1,0 +1,15 @@
+TABLE
+IDUTENTE(CHE VIENE COMMENTATO)
+IDUTENTE(CHE COMMENTA)
+VERIFICA(SE PUò COMMENTARE)
+
+//NOTIFICA DI APPROVAZIONE SE PUò COMMENTARE L'ACCOUNT
+// account ospite tipo puoi vedere info e tutto ma non puoi commenatare e mettere mi piace
+
+CREATE TABLE approvazione(
+	IDutente bigint NOT NULL,
+    	utenteID bigint NOT NULL,
+    	verifica int NOT NULL,
+	FOREIGN KEY (IDutente) REFERENCES utenti(IDutente), 
+        FOREIGN KEY (utenteID) REFERENCES utenti(IDutente)
+)

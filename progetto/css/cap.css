@@ -1,0 +1,26 @@
+body{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	cursor: wait;
+	background-color: #DEDFEC;
+	
+	
+}
+form{
+	display:flex;
+	justify-content:center;
+
+	margin-top:2%;
+}
+img{
+	display:flex;
+	justify-content:center;
+	width:20%;
+}
+input[type=submit]:hover{
+	cursor:pointer;
+}
+input{
+	border-radius:3px;
+}

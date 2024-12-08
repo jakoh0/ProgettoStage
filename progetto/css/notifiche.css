@@ -1,0 +1,24 @@
+body{
+	display:flex;
+	flex-direction:column;
+	background-color:#E4E3D6;
+	align-items:center;
+	margin-top:0%;
+	margin-left:0%;
+	margin-right:0%;
+}
+#not{
+	margin-bottom:1%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#not > div{
+	display:flex;
+	flex-direction:row;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
